@@ -83,10 +83,44 @@
 }
 
 .lang_opt{
-    height: 40px;
+    height: 50px;
     width: 50px;
     text-align: center;
     background-color: transparent;
     color: white;
     border: none;
+}
+
+.welcome{
+    height: 40px;
+    
+}
+
+.welcome_msg{
+    font-size: .70rem;
+    padding-left: 5px;
+    padding-top: 22px;
+
+}
+
+.account_opt{
+    font-size: .85rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.return{
+    height: 50px;
+    padding-top: 22px;
+}
+
+.return_msg{
+    font-size: .70rem;
+    padding-left: 0px;
+}
+
+.order_msg{
+    font-size: .85rem;
+    
 }
