@@ -68,7 +68,7 @@
 
 .search_bar{
     border: none;
-    width: 650px;
+    width: 700px;
 }
 
 .search_icon{
@@ -87,8 +87,9 @@
     color: black;
 }
 
-.nav_search:click{
-    border: 1px solid rgb(212, 139, 3);
+.nav_search:hover{
+    border: 3px solid orange;
+    border-radius: 7px;
 }
 
 .lang_opt{
@@ -144,5 +145,43 @@
 }
 .cart_text{
     font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.goto_opt{
+    height: 39px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.header_all{
+    width: 4%;
+    display: flex;
+    justify-content: end;
+}
+
+.all_text{
+    padding-left: 5px; 
+    font-size: .90rem;
+    font-weight: 700;
+}
+
+.header_list{
+    display: flex;
+    width: 80%;
+    
+}
+
+.list a{
+    color: white;
+    text-decoration: none;
+    padding-left: 7px;
+    font-size: .90rem;
+}
+
+.owned_msg{
+    font-size: .90rem;
     font-weight: 700;
 }
